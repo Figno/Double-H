@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最新" />
+
+        <Button
+            android:id="@+id/bt_ptj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兼职地带" />
+
+        <Button
+            android:id="@+id/bt_lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="失物招领" />
+
+        <Button
+            android:id="@+id/bt_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表白墙" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闲置交易" />
+
+        <Button
+            android:id="@+id/bt_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学习资讯" />
+
+        <Button
+            android:id="@+id/bt_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布" />
+
+</LinearLayout>
